@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/abel/cs225 /list/LinkedList.cpp
+LinkedList.h
+/home/abel/cs225 /list/LinkedList.h
+
+/home/abel/cs225 /list/LinkedList.h
+
+/home/abel/cs225 /list/People.cpp
+People.h
+/home/abel/cs225 /list/People.h
+
+/home/abel/cs225 /list/People.h
+string
+-
+iostream
+-
+
+/home/abel/cs225 /list/main.cpp
+iostream
+-
+People.h
+/home/abel/cs225 /list/People.h
+typeinfo
+-
+
