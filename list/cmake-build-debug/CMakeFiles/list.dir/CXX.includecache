@@ -6,27 +6,49 @@
 
 #IncludeRegexTransform: 
 
-/home/abel/cs225 /list/LinkedList.cpp
+/home/abel/git/Cpractice/list/LinkedList.cpp
 LinkedList.h
-/home/abel/cs225 /list/LinkedList.h
+/home/abel/git/Cpractice/list/LinkedList.h
 
-/home/abel/cs225 /list/LinkedList.h
+/home/abel/git/Cpractice/list/LinkedList.h
+iostream
+-
+string
+-
 
-/home/abel/cs225 /list/People.cpp
+/home/abel/git/Cpractice/list/People.cpp
 People.h
-/home/abel/cs225 /list/People.h
+/home/abel/git/Cpractice/list/People.h
 
-/home/abel/cs225 /list/People.h
+/home/abel/git/Cpractice/list/People.h
 string
 -
 iostream
 -
 
-/home/abel/cs225 /list/main.cpp
+/home/abel/git/Cpractice/list/Queue.cpp
+Queue.h
+/home/abel/git/Cpractice/list/Queue.h
+iostream
+-
+
+/home/abel/git/Cpractice/list/Queue.h
+ostream
+-
+
+/home/abel/git/Cpractice/list/main.cpp
 iostream
 -
 People.h
-/home/abel/cs225 /list/People.h
+/home/abel/git/Cpractice/list/People.h
 typeinfo
 -
+LinkedList.h
+/home/abel/git/Cpractice/list/LinkedList.h
+LinkedList.cpp
+/home/abel/git/Cpractice/list/LinkedList.cpp
+Queue.h
+/home/abel/git/Cpractice/list/Queue.h
+Queue.cpp
+/home/abel/git/Cpractice/list/Queue.cpp
 

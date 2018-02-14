@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/abel/cs225 /list/cmake-build-debug"/>
+				<Option working_dir="/home/abel/git/Cpractice/list/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/abel/cs225 /list/cmake-build-debug"/>
+				<Option working_dir="/home/abel/git/Cpractice/list/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/abel/cs225 /list/cmake-build-debug"/>
+				<Option working_dir="/home/abel/git/Cpractice/list/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list">
-				<Option output="/home/abel/cs225 /list/cmake-build-debug/list" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/abel/cs225 /list/cmake-build-debug"/>
+				<Option output="/home/abel/git/Cpractice/list/cmake-build-debug/list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abel/git/Cpractice/list/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 list"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 list"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list/fast">
-				<Option output="/home/abel/cs225 /list/cmake-build-debug/list" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/abel/cs225 /list/cmake-build-debug"/>
+				<Option output="/home/abel/git/Cpractice/list/cmake-build-debug/list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abel/git/Cpractice/list/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,29 +77,35 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 list/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/abel/cs225\ /list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 list/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/abel/git/Cpractice/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/abel/cs225 /list/LinkedList.cpp">
+		<Unit filename="/home/abel/git/Cpractice/list/LinkedList.cpp">
 			<Option target="list"/>
 		</Unit>
-		<Unit filename="/home/abel/cs225 /list/LinkedList.h">
+		<Unit filename="/home/abel/git/Cpractice/list/LinkedList.h">
 			<Option target="list"/>
 		</Unit>
-		<Unit filename="/home/abel/cs225 /list/People.cpp">
+		<Unit filename="/home/abel/git/Cpractice/list/People.cpp">
 			<Option target="list"/>
 		</Unit>
-		<Unit filename="/home/abel/cs225 /list/People.h">
+		<Unit filename="/home/abel/git/Cpractice/list/People.h">
 			<Option target="list"/>
 		</Unit>
-		<Unit filename="/home/abel/cs225 /list/main.cpp">
+		<Unit filename="/home/abel/git/Cpractice/list/Queue.cpp">
 			<Option target="list"/>
 		</Unit>
-		<Unit filename="/home/abel/cs225 /list/CMakeLists.txt">
+		<Unit filename="/home/abel/git/Cpractice/list/Queue.h">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/home/abel/git/Cpractice/list/main.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/home/abel/git/Cpractice/list/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -3,13 +3,14 @@
 //
 
 #include "People.h"
+
 int People::total = 0;
 
-People::People(int age, const string &name):age(age),name(name) {
+People::People(int age, const string &name) : age(age), name(name) {
     total++;
 }
 
-int People::getAge() const{
+int People::getAge() const {
     return age;
 }
 
@@ -37,9 +38,12 @@ const People People::operator=(const People &other) {
     this->name = other.name;
     this->age = other.age;
 }
-ostream &operator<<(ostream &os, const People &p){
-    os << "my name is " << p.name << endl;
-    os << "my age is " << p.age << endl;
-    os << "total people " << p.total << endl;
+
+ostream &operator<<(ostream &os, const People &p) {
+    os << "People[";
+    os << "name:" << p.name;
+    os << "  age:" << p.age;
+    os << "  total:" << p.total;
+    os << "]";
     return os;
 }

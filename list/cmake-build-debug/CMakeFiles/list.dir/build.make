@@ -43,10 +43,10 @@ RM = /home/abel/opt/clion-2017.3.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/abel/cs225 /list"
+CMAKE_SOURCE_DIR = /home/abel/git/Cpractice/list
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/abel/cs225 /list/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/abel/git/Cpractice/list/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/list.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/list.dir/flags.make
 
 CMakeFiles/list.dir/main.cpp.o: CMakeFiles/list.dir/flags.make
 CMakeFiles/list.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abel/cs225 /list/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/list.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/list.dir/main.cpp.o -c "/home/abel/cs225 /list/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abel/git/Cpractice/list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/list.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/list.dir/main.cpp.o -c /home/abel/git/Cpractice/list/main.cpp
 
 CMakeFiles/list.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/list.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/abel/cs225 /list/main.cpp" > CMakeFiles/list.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abel/git/Cpractice/list/main.cpp > CMakeFiles/list.dir/main.cpp.i
 
 CMakeFiles/list.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/list.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/abel/cs225 /list/main.cpp" -o CMakeFiles/list.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abel/git/Cpractice/list/main.cpp -o CMakeFiles/list.dir/main.cpp.s
 
 CMakeFiles/list.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/list.dir/main.cpp.o.provides.build: CMakeFiles/list.dir/main.cpp.o
 
 CMakeFiles/list.dir/People.cpp.o: CMakeFiles/list.dir/flags.make
 CMakeFiles/list.dir/People.cpp.o: ../People.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abel/cs225 /list/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/list.dir/People.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/list.dir/People.cpp.o -c "/home/abel/cs225 /list/People.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abel/git/Cpractice/list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/list.dir/People.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/list.dir/People.cpp.o -c /home/abel/git/Cpractice/list/People.cpp
 
 CMakeFiles/list.dir/People.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/list.dir/People.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/abel/cs225 /list/People.cpp" > CMakeFiles/list.dir/People.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abel/git/Cpractice/list/People.cpp > CMakeFiles/list.dir/People.cpp.i
 
 CMakeFiles/list.dir/People.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/list.dir/People.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/abel/cs225 /list/People.cpp" -o CMakeFiles/list.dir/People.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abel/git/Cpractice/list/People.cpp -o CMakeFiles/list.dir/People.cpp.s
 
 CMakeFiles/list.dir/People.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/list.dir/People.cpp.o.provides.build: CMakeFiles/list.dir/People.cpp.
 
 CMakeFiles/list.dir/LinkedList.cpp.o: CMakeFiles/list.dir/flags.make
 CMakeFiles/list.dir/LinkedList.cpp.o: ../LinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abel/cs225 /list/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/list.dir/LinkedList.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/list.dir/LinkedList.cpp.o -c "/home/abel/cs225 /list/LinkedList.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abel/git/Cpractice/list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/list.dir/LinkedList.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/list.dir/LinkedList.cpp.o -c /home/abel/git/Cpractice/list/LinkedList.cpp
 
 CMakeFiles/list.dir/LinkedList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/list.dir/LinkedList.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/abel/cs225 /list/LinkedList.cpp" > CMakeFiles/list.dir/LinkedList.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abel/git/Cpractice/list/LinkedList.cpp > CMakeFiles/list.dir/LinkedList.cpp.i
 
 CMakeFiles/list.dir/LinkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/list.dir/LinkedList.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/abel/cs225 /list/LinkedList.cpp" -o CMakeFiles/list.dir/LinkedList.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abel/git/Cpractice/list/LinkedList.cpp -o CMakeFiles/list.dir/LinkedList.cpp.s
 
 CMakeFiles/list.dir/LinkedList.cpp.o.requires:
 
@@ -129,11 +129,36 @@ CMakeFiles/list.dir/LinkedList.cpp.o.provides: CMakeFiles/list.dir/LinkedList.cp
 CMakeFiles/list.dir/LinkedList.cpp.o.provides.build: CMakeFiles/list.dir/LinkedList.cpp.o
 
 
+CMakeFiles/list.dir/Queue.cpp.o: CMakeFiles/list.dir/flags.make
+CMakeFiles/list.dir/Queue.cpp.o: ../Queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abel/git/Cpractice/list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/list.dir/Queue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/list.dir/Queue.cpp.o -c /home/abel/git/Cpractice/list/Queue.cpp
+
+CMakeFiles/list.dir/Queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/list.dir/Queue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abel/git/Cpractice/list/Queue.cpp > CMakeFiles/list.dir/Queue.cpp.i
+
+CMakeFiles/list.dir/Queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/list.dir/Queue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abel/git/Cpractice/list/Queue.cpp -o CMakeFiles/list.dir/Queue.cpp.s
+
+CMakeFiles/list.dir/Queue.cpp.o.requires:
+
+.PHONY : CMakeFiles/list.dir/Queue.cpp.o.requires
+
+CMakeFiles/list.dir/Queue.cpp.o.provides: CMakeFiles/list.dir/Queue.cpp.o.requires
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/Queue.cpp.o.provides.build
+.PHONY : CMakeFiles/list.dir/Queue.cpp.o.provides
+
+CMakeFiles/list.dir/Queue.cpp.o.provides.build: CMakeFiles/list.dir/Queue.cpp.o
+
+
 # Object files for target list
 list_OBJECTS = \
 "CMakeFiles/list.dir/main.cpp.o" \
 "CMakeFiles/list.dir/People.cpp.o" \
-"CMakeFiles/list.dir/LinkedList.cpp.o"
+"CMakeFiles/list.dir/LinkedList.cpp.o" \
+"CMakeFiles/list.dir/Queue.cpp.o"
 
 # External object files for target list
 list_EXTERNAL_OBJECTS =
@@ -141,9 +166,10 @@ list_EXTERNAL_OBJECTS =
 list: CMakeFiles/list.dir/main.cpp.o
 list: CMakeFiles/list.dir/People.cpp.o
 list: CMakeFiles/list.dir/LinkedList.cpp.o
+list: CMakeFiles/list.dir/Queue.cpp.o
 list: CMakeFiles/list.dir/build.make
 list: CMakeFiles/list.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/abel/cs225 /list/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abel/git/Cpractice/list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable list"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/list.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +180,7 @@ CMakeFiles/list.dir/build: list
 CMakeFiles/list.dir/requires: CMakeFiles/list.dir/main.cpp.o.requires
 CMakeFiles/list.dir/requires: CMakeFiles/list.dir/People.cpp.o.requires
 CMakeFiles/list.dir/requires: CMakeFiles/list.dir/LinkedList.cpp.o.requires
+CMakeFiles/list.dir/requires: CMakeFiles/list.dir/Queue.cpp.o.requires
 
 .PHONY : CMakeFiles/list.dir/requires
 
@@ -162,6 +189,6 @@ CMakeFiles/list.dir/clean:
 .PHONY : CMakeFiles/list.dir/clean
 
 CMakeFiles/list.dir/depend:
-	cd "/home/abel/cs225 /list/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/abel/cs225 /list" "/home/abel/cs225 /list" "/home/abel/cs225 /list/cmake-build-debug" "/home/abel/cs225 /list/cmake-build-debug" "/home/abel/cs225 /list/cmake-build-debug/CMakeFiles/list.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/abel/git/Cpractice/list/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/abel/git/Cpractice/list /home/abel/git/Cpractice/list /home/abel/git/Cpractice/list/cmake-build-debug /home/abel/git/Cpractice/list/cmake-build-debug /home/abel/git/Cpractice/list/cmake-build-debug/CMakeFiles/list.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/list.dir/depend
 

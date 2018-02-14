@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/abel/cs225 /list/LinkedList.cpp" "/home/abel/cs225 /list/cmake-build-debug/CMakeFiles/list.dir/LinkedList.cpp.o"
-  "/home/abel/cs225 /list/People.cpp" "/home/abel/cs225 /list/cmake-build-debug/CMakeFiles/list.dir/People.cpp.o"
-  "/home/abel/cs225 /list/main.cpp" "/home/abel/cs225 /list/cmake-build-debug/CMakeFiles/list.dir/main.cpp.o"
+  "/home/abel/git/Cpractice/list/LinkedList.cpp" "/home/abel/git/Cpractice/list/cmake-build-debug/CMakeFiles/list.dir/LinkedList.cpp.o"
+  "/home/abel/git/Cpractice/list/People.cpp" "/home/abel/git/Cpractice/list/cmake-build-debug/CMakeFiles/list.dir/People.cpp.o"
+  "/home/abel/git/Cpractice/list/Queue.cpp" "/home/abel/git/Cpractice/list/cmake-build-debug/CMakeFiles/list.dir/Queue.cpp.o"
+  "/home/abel/git/Cpractice/list/main.cpp" "/home/abel/git/Cpractice/list/cmake-build-debug/CMakeFiles/list.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

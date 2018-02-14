@@ -26,9 +26,10 @@ public:
 
     static void setTotal(int total);
 
+    const People operator=(const People &other);
+
     static int total;
 
-    const People operator=(const People &other);
 private:
     int age;
     string name;

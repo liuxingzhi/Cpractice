@@ -48,10 +48,10 @@ RM = /home/abel/opt/clion-2017.3.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/abel/cs225 /list"
+CMAKE_SOURCE_DIR = /home/abel/git/Cpractice/list
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/abel/cs225 /list/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/abel/git/Cpractice/list/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/abel/cs225 /list/cmake-build-debug/CMakeFiles" "/home/abel/cs225 /list/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abel/git/Cpractice/list/cmake-build-debug/CMakeFiles /home/abel/git/Cpractice/list/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/abel/cs225 /list/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abel/git/Cpractice/list/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,33 @@ People.cpp.s:
 	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/People.cpp.s
 .PHONY : People.cpp.s
 
+Queue.o: Queue.cpp.o
+
+.PHONY : Queue.o
+
+# target to build an object file
+Queue.cpp.o:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/Queue.cpp.o
+.PHONY : Queue.cpp.o
+
+Queue.i: Queue.cpp.i
+
+.PHONY : Queue.i
+
+# target to preprocess a source file
+Queue.cpp.i:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/Queue.cpp.i
+.PHONY : Queue.cpp.i
+
+Queue.s: Queue.cpp.s
+
+.PHONY : Queue.s
+
+# target to generate assembly for a file
+Queue.cpp.s:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/Queue.cpp.s
+.PHONY : Queue.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... People.o"
 	@echo "... People.i"
 	@echo "... People.s"
+	@echo "... Queue.o"
+	@echo "... Queue.i"
+	@echo "... Queue.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

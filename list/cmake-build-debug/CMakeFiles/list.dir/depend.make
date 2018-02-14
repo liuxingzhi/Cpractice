@@ -7,6 +7,13 @@ CMakeFiles/list.dir/LinkedList.cpp.o: ../LinkedList.h
 CMakeFiles/list.dir/People.cpp.o: ../People.cpp
 CMakeFiles/list.dir/People.cpp.o: ../People.h
 
+CMakeFiles/list.dir/Queue.cpp.o: ../Queue.cpp
+CMakeFiles/list.dir/Queue.cpp.o: ../Queue.h
+
+CMakeFiles/list.dir/main.cpp.o: ../LinkedList.cpp
+CMakeFiles/list.dir/main.cpp.o: ../LinkedList.h
 CMakeFiles/list.dir/main.cpp.o: ../People.h
+CMakeFiles/list.dir/main.cpp.o: ../Queue.cpp
+CMakeFiles/list.dir/main.cpp.o: ../Queue.h
 CMakeFiles/list.dir/main.cpp.o: ../main.cpp
 

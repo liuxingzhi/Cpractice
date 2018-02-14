@@ -3,4 +3,4 @@ project(list)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(list main.cpp People.cpp People.h LinkedList.cpp LinkedList.h)
+add_executable(list main.cpp People.cpp People.h LinkedList.cpp LinkedList.h Queue.cpp Queue.h)
